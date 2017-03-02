@@ -38,8 +38,8 @@ object ProcessTGZArchive {
     try {
       println("Hello ProcessTGZArchive!")
 
-      val inputFileName = "D:/Scala-Workspace/Stuff.git/ProcessFiles.tar.gz"
-      val outputFileName = "D:/Scala-Workspace/Stuff.git/output.txt"
+      val inputFileName = "ProcessFiles.tar.gz"
+      val outputFileName = "output.txt"
 
       import resource._
 
