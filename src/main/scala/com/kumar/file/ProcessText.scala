@@ -8,7 +8,7 @@ object ProcessText {
     try {
       println("Hello ProcessText!")
 
-      val lines: List[String] = Source.fromFile("D:/Scala-Workspace/Stuff.git/ProcessText.txt").getLines.toList
+      val lines: List[String] = Source.fromFile("ProcessText.txt").getLines.toList
       lines.foreach(println)
 
       println("All Done!")
